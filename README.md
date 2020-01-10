@@ -12,6 +12,8 @@ The aim of this project is to train a neural netowrk, or other model to predict 
 
 - There may be some data available from the PECAN street project (pecanstreet.org) that I will need to have a quick look at as well.
 
+Edit: I looked into pecan street data and you have to purchase a commercial license to use the data or you need to be part of a university research team.
+
 2. Determine Optimal Operation using Numerical Methods:
 - For each 24 hour period where a load profile and a solar profile meet an electricity tariff, there is a optimal battery control profile that minimises the cost pade by the controller. With that in mind, we would like to find the optimal battery control profile.
 
@@ -32,7 +34,7 @@ The aim of this project is to train a neural netowrk, or other model to predict 
 day of the week, hour of the day, solar input, solar forecast (next 24 hours), residential load, tariff, load forecast, battery SOC and more.
 
 4. Train a battery controller:
-- After a model(s) architecture is chosen, a random initialisation weights matrix will be implemented, then using the inputs to the model, the model will try to predict the optimal battery operation, given the inputs, for each time period in the year. 
+- After a model(s) architecture is chosen, a random initialisation weights matrix will be implemented, then using the inputs to the model, the model will try to predict the optimal battery operation, given the inputs, for each time period in the year.
 
 - After each attempted prediction, the model will learn by performing back propogation and adjusting the weights for each node.
 
